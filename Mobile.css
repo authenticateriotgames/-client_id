@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media(max-width: 1039px)  {
+    *  {
+        margin: 0;
+        padding: 0;
+    }
+
+    body  {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(img/arcane_mobile_default_BG_2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    header  {
+        padding: 91px 268px 0;
+    }
+
+    header #RiotGames #Riot  {
+        width: 345px;
+        height: auto;
+        fill: rgb(252, 252, 252);
+    }
+
+    main #block  {
+        background-color: rgb(255, 255, 255);
+        margin: 93px 0 0 50px;
+        width: 880px;
+        height: 2026px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    main #block #entrance  {
+        text-align: center;
+        padding: 255px 0 24px 0;
+        font-size: 82px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    main #block #name  {
+        text-align: center;
+        margin: 55px 0 0 107px;
+        width: 769px;
+        height: 192px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        background-color: rgba(186, 186, 186, 0.1);
+    }
+
+    main #block #name input  {
+        background: transparent;
+        padding: 113px 0 60px 20px;
+        width: 750px;
+        height: 17px;
+        border: none;
+        font-size: 60px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+    }
+
+    main #block #name label  {
+        float: left;
+        text-align: left;
+        width: 509px;
+        height: 32px;
+        margin: -180px 0 0 10px;
+        padding: 14px 0 0 17px;
+        font-size: 35px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        letter-spacing: 7px;
+        color: rgb(80, 80, 80);
+    }
+
+    main #block #password  {
+        text-align: center;
+        margin: 47px 0 115px 107px;
+        width: 769px;
+        height: 192px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        background-color: rgba(186, 186, 186, 0.1);
+    }
+
+    main #block #password input  {
+        background: transparent;
+        padding: 113px 0 60px 20px;
+        width: 750px;
+        height: 17px;
+        border: none;
+        font-size: 60px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+    }
+
+    main #block #password label  {
+        float: left;
+        text-align: left;
+        width: 509px;
+        height: 32px;
+        margin: -180px 0 0 10px;
+        padding: 14px 0 0 17px;
+        font-size: 35px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        letter-spacing: 7px;
+        color: rgb(80, 80, 80);
+    }
+
+    main #block #a  {
+        margin-bottom: 23px;
+    }
+
+    main #block #a #google  {
+        margin-left: 103px;
+        padding: 90px 115px 32px 120px;
+        border: 6px solid rgba(0, 0, 0, 0.05);
+        border-radius: 38px;
+        cursor: pointer;
+    }
+
+    main #block #a #google img  {
+        width: 76px;
+        height: 76px;
+    }
+
+    main #block #a #apple  {
+        margin-left: 23px;
+        background-color: rgb(0, 0, 0);
+        padding: 90px 115px 32px 120px;
+        border: 6px solid rgba(0, 0, 0, 1);
+        border-radius: 38px;
+        cursor: pointer;
+    }
+
+    main #block #a #apple img  {
+        width: 76px;
+        height: 76px;
+    }
+
+    main #block #check  {
+        margin: 100px 0 0 107px;
+        font-family: "Roboto", sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 5px;
+    }
+
+    main #block #check #checkbox  {
+        float: left;
+        margin-right: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+    main #block #button  {
+        width: 280px;
+        height: 280px;
+        background-color: rgb(213, 50, 53);
+        border: 0;
+        border-radius: 105px;
+        margin: 210px 0 0 72px;
+        cursor: pointer;
+    }
+
+    main #block #button img  {
+        margin: 4px 1px 0 0;
+        width: 72px;
+        height: 69px;
+    }
+
+    main #block #other  {
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    main #block #other a  {
+        text-decoration: none;
+        color: rgb(74, 74, 74);
+        font-family: "Roboto", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: 5px;
+    }
+
+    footer  {
+        position: absolute;
+        z-index: 0;
+        text-align: center;
+        bottom: 0px;
+        padding: 144px 0 0 72px;
+        width: 900px;
+        height: 130px;
+    }
+
+    footer #first  {
+        margin: 8px 0 0 0;
+    }
+
+    footer #first .link  {
+        display: block;
+        margin-bottom: 50px;
+        text-decoration: none;
+        color: rgb(173, 173, 173);
+        font-family: "Roboto", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: 1.3px;
+    }
+
+    footer #second, footer #second .link1  {
+        font-family: "Roboto", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+    }
+
+    footer #second  {
+        color: rgb(173, 173, 173);
+        margin-top: 16px;
+    }
+
+    footer #second .link1  {
+        color: rgb(224, 224, 224);
+    }
+
+    footer #first #background  {
+        width: 0;
+        height: 0;
+    }
+
+    footer #first #background #language  {
+        width: 0;
+        height: 0;
+    }
+
+    footer #first #background .kAhjWZ {
+        font-size: 0;
+    }
+
+    footer #first #background #world  {
+        font-size: 0;
+    }
+
+    footer #first #background #home  {
+        width: 0;
+        height: 0;
+    }
+}
